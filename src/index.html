@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Template • TodoMVC</title>
+  </head>
+  <body>
+    <section class="todoapp">
+      <header class="header">
+        <h1>Tareas</h1>
+        <input class="new-todo" placeholder="¿Qué necesitas hacer?" autofocus />
+      </header>
+      <!-- This section should be hidden by default and shown when there are todos -->
+      <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox" />
+        <label for="toggle-all">Mark all as complete</label>
+        <ul class="todo-list"></ul>
+      </section>
+      <!-- This footer should hidden by default and shown when there are todos -->
+      <footer class="footer">
+        <!-- This should be `0 items left` by default -->
+        <span class="todo-count"><strong>0</strong> pendiente(s)</span>
+        <!-- Remove this if you don't implement routing -->
+        <ul class="filters">
+          <li>
+            <a class="selected filter" href="#/">Todos</a>
+          </li>
+          <li>
+            <a class="filter" href="#/active">Pendientes</a>
+          </li>
+          <li>
+            <a class="filter" href="#/completed">Completados</a>
+          </li>
+        </ul>
+        <!-- Hidden if no completed items are left ↓ -->
+        <button class="clear-completed">Borrar completados</button>
+      </footer>
+    </section>
+    <footer class="info">
+      <p>
+        Template creado por <a href="http://sindresorhus.com">Sindre Sorhus</a>
+      </p>
+      <!-- Change this out with your name and url ↓ -->
+      <p>Creado por <a href="http://todomvc.com">ti</a></p>
+      <p>Parte de <a href="http://todomvc.com">TodoMVC</a></p>
+    </footer>
+  </body>
+</html>
