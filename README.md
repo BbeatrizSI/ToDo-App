@@ -1,5 +1,5 @@
-# Starter-Kit
-Starter kit for apps
+# ToDo App
+I hope this is usefull, just be creative in your tasks!
 
 #### Info:
 First, you have to remake Node modules:
